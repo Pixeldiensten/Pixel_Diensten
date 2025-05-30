@@ -495,14 +495,14 @@
   background-color: #e8f5ff;
   max-width: 100%;
   height: auto;
-  padding: 6rem 3.75rem 8rem;
+  padding: 6rem 3.75rem 10rem;
   overflow: clip;
 }
 
 .section__info.one {
   background-color: #fff;
   height: auto;
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 6rem;
 }
 
@@ -1386,7 +1386,7 @@
   width: 100px;
   height: 50px;
   display: flex;
-  inset: 463px -44% -30px 207px;
+  inset: 463px 0% -30px 10%;
 }
 
 .slider__nav {
@@ -1419,8 +1419,8 @@
   width: 100px;
   height: 50px;
   display: flex;
-  left: 3%;
-  right: -47%;
+  left: 0%;
+  right: 10%;
 }
 
 .slider__slide--image_1 {
@@ -1718,7 +1718,7 @@
   background-color: #fff;
   height: auto;
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
 }
 
 .paragraph__footer--info-copy-copy {
@@ -2190,8 +2190,12 @@
     padding: 8rem 3.75rem;
   }
 
+  .section__info.two {
+    padding-bottom: 10rem;
+  }
+
   .section__info.one {
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-bottom: 8rem;
   }
 
@@ -2534,15 +2538,16 @@
     width: 100px;
     height: 50px;
     display: flex;
-    right: -42%;
+    left: 10%;
+    right: 0%;
   }
 
   .slider__arrow--left.slider__arrow {
     justify-content: center;
     align-items: flex-start;
     display: flex;
-    left: 1%;
-    right: -47%;
+    left: 0%;
+    right: 10%;
   }
 
   .slider__slide--image_1 {
@@ -2660,7 +2665,7 @@
 
   .section__info---copy.one {
     padding-top: 8rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
   }
 
   .link-block-2 {
@@ -2789,7 +2794,7 @@
   }
 
   .navbar__menu {
-    background-color: #e8f5ff;
+    background-color: #e8f5fff2;
     border-bottom: 2px solid #000;
     border-left: 2px solid #000;
     border-right: 2px solid #000;
@@ -2913,7 +2918,7 @@
 
   .section__info.two {
     height: auto;
-    padding: 6rem 3rem;
+    padding: 6rem 3rem 8rem;
   }
 
   .section__info.one {
@@ -3116,7 +3121,8 @@
     justify-content: center;
     align-items: flex-start;
     top: 388px;
-    right: -54%;
+    left: 15%;
+    right: 0%;
   }
 
   .testimonial-slider {
@@ -3124,7 +3130,7 @@
   }
 
   .slider__arrow--left.slider__arrow {
-    right: -60%;
+    right: 15%;
   }
 
   .slider__slide--image_1 {
@@ -3193,8 +3199,11 @@
   }
 
   .contact__button--nav {
+    color: #fff;
     justify-content: center;
     align-items: center;
+    font-family: Roboto Variablefont Wdth Wght, Arial, sans-serif;
+    text-decoration: none;
     display: inline-flex;
   }
 
@@ -3399,11 +3408,11 @@
 
   .section__info.two {
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 7rem;
   }
 
   .section__info.one {
-    padding: 3rem 2rem;
+    padding: 3rem 2rem 6rem;
   }
 
   .section__contact {
@@ -3626,13 +3635,13 @@
 
   .slider__arrow {
     top: 115%;
-    left: 86%;
+    left: 15%;
     right: 0%;
   }
 
   .slider__arrow--left.slider__arrow {
     left: 0%;
-    right: -65%;
+    right: 15%;
   }
 
   .slider__slide--image_1 {
@@ -3748,7 +3757,7 @@
   }
 
   .section__info---copy.one {
-    padding: 3rem 2rem;
+    padding: 6rem 2rem 3rem;
   }
 
   .header__info--home-copy, .header__info--home-copy-copy {
@@ -3973,13 +3982,11 @@
   }
 
   .section__info.two {
-    padding-top: 4rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 4rem 1rem 7rem;
   }
 
   .section__info.one {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem 4rem;
   }
 
   .section__contact {
@@ -4095,7 +4102,7 @@
   }
 
   .div__text--left {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   .header__badges {
@@ -4215,7 +4222,7 @@
 
   .container_header {
     min-height: 80%;
-    padding: 4rem 1rem;
+    padding: 6rem 1rem;
   }
 
   .section__header {
@@ -4272,8 +4279,9 @@
   }
 
   .slider__arrow {
-    top: 122%;
-    left: 25%;
+    top: 128%;
+    bottom: 0;
+    left: 15%;
   }
 
   .slider__arrow--left.slider__arrow {
@@ -4372,6 +4380,11 @@
     font-size: 22px;
   }
 
+  .contact__button--nav {
+    color: #fff;
+    font-family: Roboto Variablefont Wdth Wght, Arial, sans-serif;
+  }
+
   .image__section--divider {
     margin-top: -2px;
   }
@@ -4405,7 +4418,7 @@
   }
 
   .section__info---copy.one {
-    padding: 4rem 1rem;
+    padding: 4rem 1rem 2rem;
   }
 
   .paragraph__footer--info-copy-copy {
