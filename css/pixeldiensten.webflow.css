@@ -1976,6 +1976,12 @@
   display: flex;
 }
 
+.section__header---bedankt, .section__header--error {
+  background-color: #e8f5ff;
+  min-height: 1000px;
+  padding-bottom: 0;
+}
+
 @media screen and (min-width: 1280px) {
   .contact__button--navbar {
     display: block;
@@ -2745,7 +2751,7 @@
     display: block;
   }
 
-  .section__header---copy, .section__header---copy-copy {
+  .section__header---copy, .section__header---copy-copy, .section__header---bedankt, .section__header--error {
     min-height: 1000px;
   }
 }
@@ -2781,6 +2787,7 @@
   }
 
   .navbar__link {
+    color: #000;
     text-align: center;
     flex: 0 auto;
     margin-top: 20px;
@@ -3792,7 +3799,7 @@
     font-size: 3rem;
   }
 
-  .section__header---copy {
+  .section__header---copy, .section__header--error {
     min-height: 1000px;
   }
 }
@@ -4529,7 +4536,7 @@
     display: none;
   }
 
-  .section__header---copy, .section__header---copy-copy {
+  .section__header---copy, .section__header---copy-copy, .section__header---bedankt, .section__header--error {
     background-position: 45%;
   }
 }

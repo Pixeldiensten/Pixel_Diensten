@@ -1,0 +1,67 @@
+<form
+                id="email-form"
+                name="email-form"
+                data-name="Email Form"
+                action="https://form2channel.com"
+                method="POST"
+                class="form__contact"
+                data-wf-page-id="67eae44f25ba978e9a0cc58c"
+                data-wf-element-id="e80cedc5-d795-b034-ef0e-5114ba2a6201"
+              >
+                <input
+                  type="hidden"
+                  name="formto_googlesheets"
+                  value="pixeldiensten@gmail.com"
+                />
+                <input
+                  type="hidden"
+                  name="formto_redirect"
+                  value="/bedankt.html"
+                />
+                <input type="hidden" name="formto_error" value="/error.html" />
+
+                <input
+                  class="text_field--name w-input"
+                  maxlength="256"
+                  name="name-2"
+                  data-name="Name 2"
+                  placeholder="Uw naam"
+                  type="text"
+                  id="name-2"
+                  required=""
+                /><input
+                  class="text__filed--email w-input"
+                  maxlength="256"
+                  name="email-2"
+                  data-name="Email 2"
+                  placeholder="Uw e-mailadres"
+                  type="email"
+                  id="email-2"
+                  required=""
+                /><textarea
+                  id="field-2"
+                  name="field-2"
+                  maxlength="5000"
+                  data-name="Field 2"
+                  placeholder="Uw bericht"
+                  class="text_area w-input"
+                ></textarea
+                ><input
+                  type="submit"
+                  data-wait="Een moment..."
+                  class="send__button---2 w-button"
+                  value="Verzenden"
+                />
+              </form>
+
+<a
+                href="/files/Algemene voorwaarden Pixel Diensten.pdf"
+                class="link__footer--2"
+                >Algemene voorwaarden</a
+              >
+              <a
+                href="/files/Privacyverklaring Pixel Diensten.pdf"
+                class="link__footer--2"
+                >Privacyverklaring</a
+              >
+
