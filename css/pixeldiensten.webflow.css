@@ -1689,7 +1689,7 @@
 }
 
 .contact__button--nav.w--current {
-  color: #000;
+  color: #fff;
 }
 
 .contact__div--block {
@@ -2717,7 +2717,7 @@
   }
 
   .contact__button--nav.w--current:hover {
-    color: #000;
+    color: #fff;
   }
 
   .div-block-64 {
