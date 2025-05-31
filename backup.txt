@@ -59,3 +59,5 @@
             <a href="/files/Privacyverklaring Pixel Diensten.pdf.pdf" class="link__footer--2">Privacyverklaring</a>
 
             index.html veranderen naar /. Voor # op index.html pagina / ervoor zetten.
+
+            cdn images linken naar lokale images

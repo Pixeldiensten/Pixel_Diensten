@@ -2942,7 +2942,7 @@
   }
 
   .hero__heading {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     font-size: 65px;
     line-height: 80px;
   }
@@ -3438,6 +3438,10 @@
 
   .section__video {
     padding: 6rem 2rem;
+  }
+
+  .hero__heading {
+    margin-bottom: 3rem;
   }
 
   .div__why--left {
@@ -4018,7 +4022,7 @@
   }
 
   .hero__heading {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 48px;
     line-height: 60px;
   }
