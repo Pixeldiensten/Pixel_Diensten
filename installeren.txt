@@ -62,6 +62,6 @@
 
             cdn images linken naar lokale images
 
-            transparante achtergrond toevoegen, kleur contact button in navbar
+            css: transparante achtergrond toevoegen, kleur contact button in navbar menu
 
             
