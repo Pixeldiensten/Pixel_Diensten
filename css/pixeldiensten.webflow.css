@@ -3857,6 +3857,10 @@
     margin-bottom: 0;
   }
 
+  .contact__button--nav {
+    color: #fff;
+  }
+
   .slider__slide--link_block {
     margin-right: 0;
   }
