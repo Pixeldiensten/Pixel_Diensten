@@ -480,8 +480,8 @@
 }
 
 .section__info {
-  height: 700px;
-  padding: 8rem 3.75rem;
+  height: auto;
+  padding: 6rem 3.75rem;
 }
 
 .section__info.three {
@@ -495,14 +495,14 @@
   background-color: #e8f5ff;
   max-width: 100%;
   height: auto;
-  padding: 6rem 3.75rem 10rem;
+  padding: 6rem 3.75rem 8rem;
   overflow: clip;
 }
 
 .section__info.one {
   background-color: #fff;
   height: auto;
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 6rem;
 }
 
@@ -683,6 +683,10 @@
   line-height: 30px;
   text-decoration: none;
   display: block;
+}
+
+.link__footer--website.w--current {
+  margin-top: 0;
 }
 
 .div__text--left {
@@ -875,8 +879,8 @@
   color: #000;
   text-align: center;
   min-height: auto;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
+  margin-top: 0;
+  margin-bottom: 3rem;
   font-family: Roboto Variablefont Wdth Wght, Arial, sans-serif;
   font-size: 32px;
   line-height: 32px;
@@ -1013,7 +1017,6 @@
 
 .container_header {
   max-width: 73rem;
-  height: 600px;
   max-height: none;
   margin-left: auto;
   margin-right: auto;
@@ -1386,7 +1389,7 @@
   width: 100px;
   height: 50px;
   display: flex;
-  inset: 463px 0% -30px 10%;
+  inset: 463px -44% -30px 207px;
 }
 
 .slider__nav {
@@ -1419,8 +1422,8 @@
   width: 100px;
   height: 50px;
   display: flex;
-  left: 0%;
-  right: 10%;
+  left: 3%;
+  right: -47%;
 }
 
 .slider__slide--image_1 {
@@ -1522,6 +1525,7 @@
   font-family: Roboto Variablefont Wdth Wght, Arial, sans-serif;
   font-size: 36px;
   line-height: 36px;
+  display: block;
 }
 
 .contact__button--phone_1 {
@@ -1653,7 +1657,7 @@
   color: #0006;
 }
 
-.div-block-61 {
+.div__footer--left--logo {
   margin-bottom: 32px;
 }
 
@@ -1718,7 +1722,7 @@
   background-color: #fff;
   height: auto;
   padding-top: 6rem;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
 }
 
 .paragraph__footer--info-copy-copy {
@@ -1828,7 +1832,7 @@
   text-decoration: none;
 }
 
-.container__info---copy {
+.container__resultaten {
   max-width: 73rem;
   margin-left: auto;
   margin-right: auto;
@@ -1846,9 +1850,10 @@
   display: block;
 }
 
-.section__footer---copy {
+.section__footer--bedankt {
   background-color: #e8f5ff;
-  padding: 4rem 3.75rem 1rem;
+  min-height: 10vh;
+  padding: 1rem 3.75rem;
 }
 
 .iv__flex--number1 {
@@ -1976,10 +1981,70 @@
   display: flex;
 }
 
-.section__header---bedankt, .section__header--error {
+.section__bedankt {
+  background-color: #e8f5ff;
+  min-height: 100vh;
+}
+
+.section-3 {
   background-color: #e8f5ff;
   min-height: 1000px;
-  padding-bottom: 0;
+}
+
+.hero__heading---bedankt {
+  color: #000;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 77px;
+  font-weight: 400;
+  line-height: 95px;
+  display: block;
+}
+
+.section__reviews {
+  height: auto;
+  padding: 6rem 3.75rem;
+}
+
+.section__reviews.three {
+  background-color: #f2f2f2;
+  height: auto;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section__reviews.two {
+  background-color: #e8f5ff;
+  height: auto;
+  padding: 6rem 0 8rem;
+}
+
+.section__reviews.one {
+  background-color: #fff;
+  height: auto;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.header__home {
+  color: #000;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 60px;
+  display: block;
+}
+
+.paragraph__footer--phone, .paragraph__footer--email {
+  color: #000;
+  margin-bottom: .5rem;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2192,16 +2257,12 @@
   }
 
   .section__info {
-    background-color: #f2f2f2;
+    background-color: #fff;
     padding: 8rem 3.75rem;
   }
 
-  .section__info.two {
-    padding-bottom: 10rem;
-  }
-
   .section__info.one {
-    padding-top: 4rem;
+    padding-top: 6rem;
     padding-bottom: 8rem;
   }
 
@@ -2452,7 +2513,7 @@
   .paragraph__algemeen {
     text-align: center;
     margin-top: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   .div__footer--image {
@@ -2493,8 +2554,8 @@
     max-width: 73rem;
     height: auto;
     max-height: none;
-    padding-top: 160px;
-    padding-bottom: 4rem;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
   }
 
   .section__header {
@@ -2544,16 +2605,15 @@
     width: 100px;
     height: 50px;
     display: flex;
-    left: 10%;
-    right: 0%;
+    right: -42%;
   }
 
   .slider__arrow--left.slider__arrow {
     justify-content: center;
     align-items: flex-start;
     display: flex;
-    left: 0%;
-    right: 10%;
+    left: 1%;
+    right: -47%;
   }
 
   .slider__slide--image_1 {
@@ -2671,7 +2731,7 @@
 
   .section__info---copy.one {
     padding-top: 8rem;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
   }
 
   .link-block-2 {
@@ -2716,7 +2776,7 @@
     text-decoration: none;
   }
 
-  .container__info---copy {
+  .container__resultaten {
     max-width: 73rem;
     margin-left: auto;
     margin-right: auto;
@@ -2735,11 +2795,11 @@
     padding-bottom: 1rem;
   }
 
-  .section__footer---copy {
+  .section__footer--bedankt {
     min-height: 10vh;
     margin-top: 0;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .body-2 {
@@ -2751,8 +2811,38 @@
     display: block;
   }
 
-  .section__header---copy, .section__header---copy-copy, .section__header---bedankt, .section__header--error {
+  .section__header---copy, .section__header---copy-copy {
     min-height: 1000px;
+  }
+
+  .section__bedankt {
+    min-height: 100vh;
+  }
+
+  .hero__heading---bedankt {
+    margin-bottom: 1rem;
+    font-size: 77px;
+  }
+
+  .section__reviews {
+    background-color: #fff;
+    padding: 8rem 3.75rem;
+  }
+
+  .section__reviews.one {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+  }
+
+  .header__home {
+    margin-bottom: 70px;
+    font-size: 72px;
+    line-height: 60px;
+    display: block;
+  }
+
+  .paragraph__footer--email {
+    margin-bottom: 2rem;
   }
 }
 
@@ -2787,7 +2877,6 @@
   }
 
   .navbar__link {
-    color: #000;
     text-align: center;
     flex: 0 auto;
     margin-top: 20px;
@@ -2801,7 +2890,7 @@
   }
 
   .navbar__menu {
-    background-color: #e8f5fff2;
+    background-color: #e8f5ff;
     border-bottom: 2px solid #000;
     border-left: 2px solid #000;
     border-right: 2px solid #000;
@@ -2853,7 +2942,7 @@
   }
 
   .hero__heading {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     font-size: 65px;
     line-height: 80px;
   }
@@ -2925,7 +3014,7 @@
 
   .section__info.two {
     height: auto;
-    padding: 6rem 3rem 8rem;
+    padding: 6rem 3rem;
   }
 
   .section__info.one {
@@ -3128,8 +3217,7 @@
     justify-content: center;
     align-items: flex-start;
     top: 388px;
-    left: 15%;
-    right: 0%;
+    right: -54%;
   }
 
   .testimonial-slider {
@@ -3137,7 +3225,7 @@
   }
 
   .slider__arrow--left.slider__arrow {
-    right: 15%;
+    right: -60%;
   }
 
   .slider__slide--image_1 {
@@ -3206,11 +3294,9 @@
   }
 
   .contact__button--nav {
-    color: #fff;
     justify-content: center;
     align-items: center;
     font-family: Roboto Variablefont Wdth Wght, Arial, sans-serif;
-    text-decoration: none;
     display: inline-flex;
   }
 
@@ -3271,9 +3357,42 @@
     font-size: 65px;
   }
 
-  .section__footer---copy {
+  .section__footer--bedankt {
+    padding-top: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .hero__heading---bedankt {
+    margin-bottom: 1rem;
+    font-size: 65px;
+    line-height: 80px;
+  }
+
+  .section__reviews {
+    padding: 6rem 3rem;
+  }
+
+  .section__reviews.three {
+    height: auto;
+  }
+
+  .section__reviews.two {
+    height: auto;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .section__reviews.one {
+    height: auto;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .header__home {
+    margin-bottom: 60px;
+    font-size: 65px;
   }
 }
 
@@ -3415,11 +3534,11 @@
 
   .section__info.two {
     padding-top: 4rem;
-    padding-bottom: 7rem;
+    padding-bottom: 6rem;
   }
 
   .section__info.one {
-    padding: 3rem 2rem 6rem;
+    padding: 4rem 2rem;
   }
 
   .section__contact {
@@ -3592,6 +3711,10 @@
     font-size: 50px;
   }
 
+  .paragraph__algemeen {
+    margin-bottom: 2rem;
+  }
+
   .section__diensten--wie {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -3603,7 +3726,6 @@
   }
 
   .container_header {
-    height: 80%;
     padding: 6rem 2rem;
   }
 
@@ -3642,13 +3764,13 @@
 
   .slider__arrow {
     top: 115%;
-    left: 15%;
+    left: 25%;
     right: 0%;
   }
 
   .slider__arrow--left.slider__arrow {
     left: 0%;
-    right: 15%;
+    right: 25%;
   }
 
   .slider__slide--image_1 {
@@ -3735,7 +3857,7 @@
     margin-right: 0;
   }
 
-  .div-block-63 {
+  .div__footer--left {
     margin-bottom: 3rem;
   }
 
@@ -3764,7 +3886,7 @@
   }
 
   .section__info---copy.one {
-    padding: 6rem 2rem 3rem;
+    padding: 4rem 2rem 3rem;
   }
 
   .header__info--home-copy, .header__info--home-copy-copy {
@@ -3781,7 +3903,7 @@
     text-decoration: none;
   }
 
-  .container__info---copy {
+  .container__resultaten {
     text-align: left;
   }
 
@@ -3790,7 +3912,7 @@
     font-size: 65px;
   }
 
-  .section__footer---copy, .container {
+  .section__footer--bedankt, .container {
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -3799,8 +3921,32 @@
     font-size: 3rem;
   }
 
-  .section__header---copy, .section__header--error {
+  .section__header---copy {
     min-height: 1000px;
+  }
+
+  .section__reviews {
+    height: auto;
+    padding: 4rem 2rem;
+  }
+
+  .section__reviews.three {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .section__reviews.two {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .section__reviews.one {
+    padding: 4rem 2rem 3rem;
+  }
+
+  .header__home {
+    margin-bottom: 40px;
+    font-size: 65px;
   }
 }
 
@@ -3872,7 +4018,7 @@
   }
 
   .hero__heading {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 48px;
     line-height: 60px;
   }
@@ -3989,11 +4135,11 @@
   }
 
   .section__info.two {
-    padding: 4rem 1rem 7rem;
+    padding: 4rem 1rem 6rem;
   }
 
   .section__info.one {
-    padding: 2rem 1rem 4rem;
+    padding: 4rem 1rem;
   }
 
   .section__contact {
@@ -4108,6 +4254,10 @@
     display: block;
   }
 
+  .link__footer--website.w--current {
+    text-align: left;
+  }
+
   .div__text--left {
     margin-bottom: 0;
   }
@@ -4202,7 +4352,7 @@
 
   .paragraph__algemeen {
     margin-top: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     font-size: 24px;
     line-height: 32px;
   }
@@ -4228,7 +4378,6 @@
   }
 
   .container_header {
-    min-height: 80%;
     padding: 6rem 1rem;
   }
 
@@ -4286,9 +4435,9 @@
   }
 
   .slider__arrow {
-    top: 128%;
+    top: 124%;
     bottom: 0;
-    left: 15%;
+    left: 25%;
   }
 
   .slider__arrow--left.slider__arrow {
@@ -4400,7 +4549,7 @@
     padding-left: 30px;
   }
 
-  .div-block-63 {
+  .div__footer--left {
     margin-bottom: 0;
   }
 
@@ -4425,7 +4574,7 @@
   }
 
   .section__info---copy.one {
-    padding: 4rem 1rem 2rem;
+    padding: 4rem 1rem 3rem;
   }
 
   .paragraph__footer--info-copy-copy {
@@ -4515,6 +4664,10 @@
     font-size: 48px;
   }
 
+  .section__footer--bedankt {
+    padding-top: 1rem;
+  }
+
   .title-wrapper {
     text-align: left;
     align-items: flex-start;
@@ -4536,8 +4689,49 @@
     display: none;
   }
 
-  .section__header---copy, .section__header---copy-copy, .section__header---bedankt, .section__header--error {
+  .section__header---copy, .section__header---copy-copy {
     background-position: 45%;
+  }
+
+  .hero__heading---bedankt {
+    margin-bottom: 1rem;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .section__reviews {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .section__reviews.three {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .section__reviews.two {
+    padding-top: 4rem;
+  }
+
+  .section__reviews.one {
+    padding: 4rem 1rem 3rem;
+  }
+
+  .header__home {
+    margin-bottom: 32px;
+    font-size: 48px;
+  }
+
+  .paragraph__footer--phone {
+    color: #000;
+    margin-bottom: .8rem;
+    font-size: 22px;
+  }
+
+  .paragraph__footer--email {
+    color: #000;
+    margin-bottom: 0;
+    font-size: 22px;
   }
 }
 
