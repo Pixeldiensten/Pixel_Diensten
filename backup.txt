@@ -61,3 +61,5 @@
             index.html veranderen naar /. Voor # op index.html pagina / ervoor zetten.
 
             cdn images linken naar lokale images
+
+            
