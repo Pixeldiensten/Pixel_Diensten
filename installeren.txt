@@ -60,7 +60,4 @@
 
             index.html veranderen naar /. Voor # op index.html pagina / ervoor zetten.
 
-            css: transparante achtergrond toevoegen, kleur contact button in navbar menu. Hoeft niet meer.
-            css link / maken. Hoeft niet meer.
-
             
