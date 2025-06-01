@@ -1018,6 +1018,7 @@
 .container_header {
   max-width: 73rem;
   height: auto;
+  min-height: 80vh;
   max-height: none;
   margin-left: auto;
   margin-right: auto;
@@ -1026,7 +1027,7 @@
 
 .section__header {
   background-color: #e8f5ff;
-  min-height: 90vh;
+  min-height: auto;
   padding-bottom: 0;
 }
 
@@ -2653,13 +2654,14 @@
   .container_header {
     max-width: 73rem;
     height: auto;
+    min-height: 80vh;
     max-height: none;
     padding-top: 14rem;
     padding-bottom: 0%;
   }
 
   .section__header {
-    min-height: 90vh;
+    min-height: auto;
   }
 
   .bedrijf__image {
@@ -3324,9 +3326,13 @@
   }
 
   .container_header {
-    min-height: 90vh;
+    min-height: 80vh;
     max-height: none;
     padding: 14rem 3rem 0%;
+  }
+
+  .section__header {
+    min-height: auto;
   }
 
   .section__upperbar {
@@ -3935,7 +3941,12 @@
   }
 
   .container_header {
+    min-height: 80vh;
     padding: 35% 2rem 0%;
+  }
+
+  .section__header {
+    min-height: 80vh;
   }
 
   .section__upperbar {
@@ -4662,12 +4673,13 @@
   }
 
   .container_header {
-    min-height: 60vh;
-    padding: 50% 1rem 0%;
+    min-height: 80vh;
+    padding: 45% 1rem 0%;
   }
 
   .section__header {
-    background-position: 45%;
+    background-image: none;
+    min-height: auto;
   }
 
   .section__upperbar {
