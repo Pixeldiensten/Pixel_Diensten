@@ -3924,7 +3924,7 @@
   }
 
   .container_header {
-    padding: 30% 2rem 0%;
+    padding: 35% 2rem 0%;
   }
 
   .section__upperbar {
@@ -4004,7 +4004,7 @@
   }
 
   .contact__text--email_block {
-    font-size: 24px;
+    font-size: 23px;
     text-decoration: none;
   }
 
@@ -4091,7 +4091,17 @@
     font-size: 65px;
   }
 
-  .text-block-9-copy, .text-block-9-copy-copy, .div__flex--text_block, .contact__text--email_text {
+  .text-block-9-copy, .text-block-9-copy-copy {
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .div__flex--text_block {
+    font-size: 23px;
+    text-decoration: none;
+  }
+
+  .contact__text--email_text {
     font-size: 24px;
     text-decoration: none;
   }
@@ -4634,7 +4644,7 @@
 
   .container_header {
     min-height: 60vh;
-    padding: 50% 1rem 0%;
+    padding: 45% 1rem 0%;
   }
 
   .section__header {
@@ -4683,12 +4693,14 @@
   }
 
   .image__section--divider_bottom {
-    max-width: 135%;
+    max-width: 140%;
     margin-top: 0;
+    overflow: hidden;
   }
 
   .image__section--divider_top {
-    max-width: 135%;
+    max-width: 140%;
+    overflow: hidden;
   }
 
   .slider__slide--1 {
