@@ -2142,6 +2142,11 @@
   display: block;
 }
 
+.div__divider {
+  max-width: 100%;
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1280px) {
   .contact__button--navbar {
     display: block;
@@ -3321,7 +3326,7 @@
   .container_header {
     min-height: 90vh;
     max-height: none;
-    padding: 16rem 3rem 0%;
+    padding: 14rem 3rem 0%;
   }
 
   .section__upperbar {
@@ -3453,6 +3458,10 @@
     display: block;
   }
 
+  .image__section--divider {
+    max-width: 150%;
+  }
+
   .section__info---copy.two {
     height: auto;
     padding-top: 6rem;
@@ -3484,14 +3493,11 @@
   }
 
   .div__services--block, .services__list--block {
-    margin-top: 0;
-    margin-bottom: 2rem;
-    margin-right: 0;
+    margin: 0 1rem 2rem;
   }
 
   .services__list--block_management {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 1rem;
   }
 
   .header__reviews {
@@ -3583,6 +3589,11 @@
     margin-bottom: 1rem;
     font-size: 65px;
     line-height: 80px;
+  }
+
+  .div__divider {
+    max-width: 100%;
+    overflow: hidden;
   }
 }
 
@@ -4064,6 +4075,10 @@
     margin-right: 0;
   }
 
+  .image__section--divider {
+    max-width: 200%;
+  }
+
   .div__footer--left {
     margin-bottom: 3rem;
   }
@@ -4202,6 +4217,10 @@
 
   .review__link--block--second, .review__link--block--first {
     margin-top: 0;
+  }
+
+  .div__divider {
+    max-width: 100%;
   }
 }
 
@@ -4644,7 +4663,7 @@
 
   .container_header {
     min-height: 60vh;
-    padding: 45% 1rem 0%;
+    padding: 50% 1rem 0%;
   }
 
   .section__header {
@@ -4815,6 +4834,7 @@
   }
 
   .image__section--divider {
+    max-width: 200%;
     margin-top: -8px;
   }
 
