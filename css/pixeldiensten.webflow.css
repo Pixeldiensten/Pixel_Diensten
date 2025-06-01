@@ -4695,12 +4695,12 @@
   .image__section--divider_bottom {
     max-width: 140%;
     margin-top: 0;
-    overflow: hidden;
+    overflow: clip;
   }
 
   .image__section--divider_top {
     max-width: 140%;
-    overflow: hidden;
+    overflow: clip;
   }
 
   .slider__slide--1 {
@@ -5062,6 +5062,11 @@
     margin-bottom: 1rem;
     font-size: 48px;
     line-height: 60px;
+  }
+
+  .div__divider {
+    max-width: 100%;
+    overflow: hidden;
   }
 }
 
